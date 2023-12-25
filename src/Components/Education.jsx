@@ -16,21 +16,20 @@ const educationList = [
 
 
 const Education = () => {
-    return(
-        <section className="light" id="education">
-            <h2 style={{ textAlign: "center" }}>Education</h2>
-            <div className="education-container">
-                {educationList.map((education) => (
-                    <div className="education-box" key={education.school}>
-                        <h3>{education.school}</h3>
-                        <h4>{education.degree}</h4>
-                        <p className="small">{education.year}</p>
-                    </div>
-                )
-            )}
-            </div>
-        </section>
-    )
-}
+  return (
+    <section className="light" id="education">
+      <h2 style={{ textAlign: "center" }}>Education</h2>
+      <div className="education-container">
+        {educationList.map((education) => (
+          <div className="education-box" key={education.school}>
+            <h3>{education.school}</h3>
+            <h4>{education.degree}</h4>
+            <p className="small">{education.year}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
 export default Education;
