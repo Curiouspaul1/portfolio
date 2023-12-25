@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Creating modularized Flask apps with blueprints",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Wrote an article to explain the idea of building modular Flask applications using blueprints in Flask",
+    url: "https://dev.to/curiouspaul1/creating-modularized-flask-apps-with-blueprints-19nc",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Telegram-Business",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Built a telegram bot that connects prospective customers to small businesses. It allows small business owners, create product catalogues and customers to view products they own, and place orders.",
+    url: "https://github.com/Curiouspaul1/telegram-business",
   },
   {
-    title: "My Resume Site",
+    title: "Py-Buycoins",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Collaborated with a friend to build a python client library for a Graphql API, owned by a crypto firm in Nigeria. The library allows developers interface with the API using python objects, as opposed to writing raw GraphQL queries",
+    url: "https://github.com/Curiouspaul1/Py-Buycoins",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "SheetSearch",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A simple web-app that allows users to search for terms in spreadsheet files, and shows a result of all rows where the search term is found",
+    url: "https://sheetsearch.azurewebsites.net/",
   },
 ];
 
